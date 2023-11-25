@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Admin dashboard</title>
+</head>
+<body>
+   <section>
+    <div class="wrapper">
+        <div class="aside">
+            <div class="aside-header">
+                <div class="container-fluid">
+                    <div class="logo-image">
+                        <img src="slt.png" alt="">
+                    </div>
+                    Admin-panel</div>
+                </div>
+                <div class="aside-content">
+                    <nav>
+                        <ul>
+                            <li class="active"><span class="menu-icon"><i class="bi bi-grid-fill"></i></span>Dashboard</li>
+                            <li><span class="menu-icon"><i class="bi bi-person-plus-fill"></i></span><a href="javascript:void(0);" onclick="navigateToAddAdminPage()"></a>Add Admin</li>
+                            <li><span class="menu-icon"><i class="bi bi-person-dash-fill"></i></span>Remove Admin</li>
+                            <li><span class="menu-icon"><i class="bi bi-calendar2-check"></i></span>Schedule Meeting</li>
+                            <li><span class="menu-icon"><i class="bi bi-person-fill-check"></i></span>Add Employee</li>
+                            <li><span class="menu-icon"><i class="bi bi-person-fill-x"></i></span>Remove Employee</li>
+                            <li><span class="menu-icon"><i class="bi bi-card-text"></i></span>Log</li>
+                            <li><span class="menu-icon"><i class="bi bi-calendar"></i></span>Calender</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                </div>
+                
+       
+        <div class="main">
+            <div class="main-header">
+                <div class="container-fluid">
+                    <div class="main-header-container">
+                        <div class="toggle-menu pointer"><i class="bi bi-list"></i></div>
+                            <div class="topnav-menu pointer">
+                                Sign Out
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="container-fluid">
+                    <div id="ajaxContent">
+                        <!--content will be loaded here with ajax-->
+                    </div>
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+   </section>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+    
+</body>
+</html>
